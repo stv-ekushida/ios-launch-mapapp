@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             
             //https://developers.google.com/maps/documentation/urls/ios-urlscheme
             //driving : driving / transit / bicycling / walking
-            urlString = "comgooglemaps://?daddr=\(latitude),\(longitude)&driving=driving&zoom=14"
+            urlString = "comgooglemaps://?daddr=\(latitude),\(longitude)&directionsmode=driving&zoom=14"
         }
         else {
             //https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html
